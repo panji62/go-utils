@@ -1,2 +1,2 @@
 # go-utils
-Golang utils for handling errors
+Simple pakcage **golang utility** for handling errors
