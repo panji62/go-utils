@@ -1,6 +1,6 @@
 package rest_success
 
-//RestSuccess interface restsuccess
+//RestSuccess interface rest success
 type RestSuccess interface {
 	Message() string
 }
@@ -12,7 +12,7 @@ func (s restSuccess) Message() string {
 	return s.SuccessMessage
 }
 
-//NewRestSuccess create new success message
+//NewRestSuccess create new success message, input string message to make custom success message
 func NewRestSuccess(message string) RestSuccess {
 	return restSuccess{
 		SuccessMessage: message,
